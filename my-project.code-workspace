@@ -1,0 +1,75 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "typescript.preferences.importModuleSpecifier": "relative",
+    "typescript.suggest.autoImports": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "emmet.includeLanguages": {
+      "typescript": "typescriptreact",
+      "javascript": "javascriptreact"
+    },
+    "tailwindCSS.includeLanguages": {
+      "typescript": "typescript",
+      "typescriptreact": "typescriptreact"
+    },
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "github.copilot.enable": {
+      "*": true,
+      "yaml": true,
+      "plaintext": true,
+      "markdown": true,
+      "typescript": true,
+      "javascript": true,
+      "typescriptreact": true,
+      "javascriptreact": true
+    },
+    "github.copilot.editor.enableAutoCompletions": true,
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.profiles.windows": {
+      "PowerShell": {
+        "source": "PowerShell",
+        "args": ["-NoLogo"]
+      }
+    },
+    "search.exclude": {
+      "**/node_modules": true,
+      "**/dist": true,
+      "**/.next": true
+    },
+    "files.exclude": {
+      "**/node_modules": true,
+      "**/.next": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "bradlc.vscode-tailwindcss",
+      "ms-vscode.vscode-typescript-next",
+      "esbenp.prettier-vscode",
+      "dbaeumer.vscode-eslint",
+      "github.copilot",
+      "github.copilot-chat",
+      "ms-vscode.powershell",
+      "formulahendry.auto-rename-tag",
+      "christian-kohler.path-intellisense",
+      "ms-vscode.vscode-json"
+    ]
+  }
+}
